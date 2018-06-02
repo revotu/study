@@ -1,0 +1,4 @@
+'(
+                select item_id, round(sum(score),2) as score from sigma_pool_as_blank_2
+                    where exercise_id=1741  and `question_uid`="1242cc-b8267b85bd" group by item_id
+                )'
